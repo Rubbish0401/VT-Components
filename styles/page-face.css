@@ -7,3 +7,12 @@
 .main-section.block{
 	background: transparent;
 }
+
+/**/
+.main-section .anchor-link{
+	font-weight: 500;
+}
+
+.main-section .anchor-link:hover{
+	text-decoration: underline;
+}
