@@ -27,30 +27,75 @@
 	<link rel="stylesheet" href="styles/global-initialisation.css">
 	<link rel="stylesheet" href="styles/page-structure.css">
 	<link rel="stylesheet" href="styles/page-face.css">
-	<link rel="stylesheet" href="styles/index-structure.css">
-	<link rel="stylesheet" href="styles/index-structure-mobile.css">
-	<link rel="stylesheet" href="styles/index-face.css">
+	<link rel="stylesheet" href="styles/contact-structure.css">
+	<link rel="stylesheet" href="styles/contact-face.css">
 
 	<!-- Scripts -->
 	<script src="scripts/header/header-header.js"></script>
 	<script src="scripts/header/header.js" type="module"></script>
-	<script src="scripts/index-header.js"></script>
-	<script src="scripts/index.js" type="module"></script>
 	<script src="scripts/footer/footer-header.js"></script>
 	<script src="scripts/footer/footer.js" type="module"></script>
 
 	<!-- Others -->
 	<link rel="icon" href="/src/images/svg/vtcomp_mark.svg">
 	<title>
-		Top | VT-Comp
+		Contact | VT-Comp
 	</title>
 </head>
 
 <body>
 	<div class="main-section back">
 		<div id="main" class="main-section page">
+			<div class="main-section block">
+				<h1>
+					お問い合わせ
+				</h1>
+			</div>
+	
+
+			<div class="main-section block">
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeRvBAT7zY336cpyt8PcWZmif7-vUtcg4r37OXAUGPP_eDqQA/viewform?embedded=true" style="display: block; margin: auto;" height="886" frameborder="0" marginheight="0" marginwidth="0" onload="resizeIframe(this)">Loading…</iframe>
+			</div>
+
+			<div class="main-section block">
+				<h1>
+					Socials
+				</h1>
+			</div>
+
+			<div class="main-section block centring">
+				<a href="https://x.com/throw_into_bin" target="_blank">
+					<div class="btn x-btn">
+						<div class="btn-inner x-btn">
+							X
+						</div>
+					</div>
+				</a>
+
+				<a href="https://bsky.app/profile/rubbish0401.bsky.social">
+					<div class="btn bluesky-btn">
+						<div class="btn-inner bluesky-btn">
+							Bluesky
+						</div>
+					</div>
+				</a>
+
+				<a href="mailto:rubbish0000@email.com?subject=Feedback%20for%20StreamWidgets">
+					<div class="btn mail-btn">
+						<div class="btn-inner mail-btn">
+							E-mail
+						</div>
+					</div>
+				</a>
+			</div>
 		</div>
 	</div>
+
+	<script>
+		function resizeIframe(obj) {
+		  obj.style.width = document.getElementById("main").clientWidth - 64;
+		}
+	</script>
 </body>
 
 </html>

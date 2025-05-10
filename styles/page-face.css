@@ -1,0 +1,9 @@
+/* Main */
+.main-section.back{
+	background: hsl(0, 0%, 98%);
+}
+
+.main-section.page,
+.main-section.block{
+	background: transparent;
+}

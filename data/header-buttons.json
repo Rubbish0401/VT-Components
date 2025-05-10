@@ -1,0 +1,12 @@
+[
+	{
+		"label": "About",
+		"url": "/about.html",
+		"newWindow": false
+	},
+	{
+		"label": "Contact",
+		"url": "/contact.html",
+		"newWindow": false
+	}
+]

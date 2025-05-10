@@ -1,0 +1,52 @@
+:root{
+	--main-colour: #5F6368;
+	--bg-colour: white;
+}
+
+@property --angle{
+	syntax: '<angle>';
+	inherits: false;
+	initial-value: 0turn;
+}
+
+
+/* */
+.btn{
+	font-size: 24px;
+
+	border-radius: 16px;
+	border: none;
+
+	background: conic-gradient(
+		transparent 0turn calc(0.5turn - var(--angle)),
+		var(--main-colour) calc(0.5turn - var(--angle)) calc(0.5turn + var(--angle)),
+		transparent calc(0.5turn + var(--angle)) 1turn
+	);
+	transition: --angle 0.3s ease;
+}
+
+.btn:hover{
+	--angle: 0.5turn;
+}
+
+.btn-inner{
+	border-radius: 14px;
+	background: var(--bg-colour);
+	color: var(--main-colour);
+}
+
+/* */
+.x-btn{
+	--main-colour: hsl(0, 0%, 10%);
+	--bg-colour: hsl(0, 0%, 100%);
+}
+
+.bluesky-btn{
+	--main-colour: #1085fe;
+	--bg-colour: white;
+}
+
+.mail-btn{
+	--main-colour: #d44638;
+	--bg-colour: white;
+}

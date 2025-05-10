@@ -1,0 +1,7 @@
+.footer.back{
+	background: hsl(0, 0%, 100%);
+}
+
+.footer.link:hover{
+	border-bottom: 1px solid #303234;
+}

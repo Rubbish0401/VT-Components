@@ -1,0 +1,22 @@
+.article-card.card-back{
+	border-radius: 8px;
+}
+
+.article-card.card-thumbnail{
+	border-radius: 8px;
+	object-fit: cover;
+}
+
+.article-card.card-title{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-wrap: nowrap;
+
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.article-card.card-descriptions{
+	text-overflow: ellipsis;
+	overflow: hidden;
+}

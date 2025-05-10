@@ -1,0 +1,9 @@
+@media screen and (max-width: 720px){
+	.header-bar.back{
+		justify-content: center;
+	}
+
+	.header-bar.rail{
+		display: none;
+	}
+}

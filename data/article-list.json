@@ -1,0 +1,37 @@
+[
+	{
+		"title": "時計",
+		"items": [
+			{
+				"url": "https://items.vt-comp.com/clock/clock-0.html",
+				"title": "タイプ0",
+				"descriptions": "シンプルでカラフルなデジタル時計です。大部分を薄く色付けしたので主張が弱く、悪目立ちすることはありません。",
+				"thumbnail": "/src/images/png/thumbnails/clock-0.png"
+			},
+			{
+				"url": "https://items.vt-comp.com/clock/clock-0-cat.html",
+				"title": "タイプ0 (猫耳つき)",
+				"descriptions": "タイプ0の時計に、同じ見た目の猫耳を付け足しました。耳の形状はシンプルな正三角形なので、恐らく犬耳と言っても受け入れられます。",
+				"thumbnail": "/src/images/png/thumbnails/clock-0-cat.png"
+			},
+			{
+				"url": "https://items.vt-comp.com/clock/clock-0-mini.html",
+				"title": "タイプ0 ミニ",
+				"descriptions": "タイプ0の時計からいくつかの要素を削り、小型化しました。細かい時間を気にしない方におすすめです。",
+				"thumbnail": "/src/images/png/thumbnails/clock-0-mini.png"
+			},
+			{
+				"url": "https://items.vt-comp.com/clock/clock-1.html",
+				"title": "タイプ1",
+				"descriptions": "ドが付くほどシンプルで特徴のないデジタル時計です。配信画面に設置するのにぴったり。プレーンなので、自由に装飾できちゃいます。",
+				"thumbnail": "/src/images/png/thumbnails/clock-1.png"
+			},
+			{
+				"url": "https://items.vt-comp.com/clock/clock-1-mini.html",
+				"title": "タイプ1 ミニ",
+				"descriptions": "タイプ1の時計から秒数の表示を除き、小型化しました。さらにどこにでも置きやすくなっています。",
+				"thumbnail": "/src/images/png/thumbnails/clock-1-mini.png"
+			}
+		]
+	}
+]

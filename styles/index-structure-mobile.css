@@ -1,0 +1,11 @@
+@media screen and (max-width: 1080px) {
+	.article-card.card-back{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.article-card.card-back{
+		width: 100%;
+	}
+}

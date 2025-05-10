@@ -1,0 +1,16 @@
+.scroll-btn.back{
+	background: hsl(180, 50%, 50%);
+	border-radius: 50%;
+	filter: drop-shadow(1px 1px 2px hsla(0, 0%, 20%, 50%));
+
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.scroll-btn.visible{
+	opacity: 1;
+}
+
+.scroll-btn.label{
+	color: white;
+}
