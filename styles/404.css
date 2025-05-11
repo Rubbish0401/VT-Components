@@ -1,0 +1,36 @@
+.error.header{
+	width: fit-content;
+	height: fit-content;
+	
+	margin: auto;
+	font-size: 96px;
+	font-weight: 800;
+}
+
+.error.icon{
+	max-width: 100%;
+	width: fit-content;
+	height: fit-content;
+	
+	display: block;
+	margin: auto;
+	opacity: 60%;
+}
+
+.error.text{
+	width: fit-content;
+	height: fit-content;
+	
+	margin: auto;
+	font-size: 48px;
+}
+
+@media screen and (max-width: 720px) {
+	.error.header{
+		font-size: 40px;
+	}
+
+	.error.text{
+		font-size: 24px;
+	}
+}

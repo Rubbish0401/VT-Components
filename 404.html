@@ -24,15 +24,16 @@
 		rel="stylesheet">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="styles/global-initialisation.css">
-	<link rel="stylesheet" href="styles/page-structure.css">
-	<link rel="stylesheet" href="styles/page-face.css">
+	<link rel="stylesheet" href="/styles/global-initialisation.css">
+	<link rel="stylesheet" href="/styles/page-structure.css">
+	<link rel="stylesheet" href="/styles/page-face.css">
+	<link rel="stylesheet" href="/styles/404.css">
 
 	<!-- Scripts -->
-	<script src="scripts/header/header-header.js"></script>
-	<script src="scripts/header/header.js" type="module"></script>
-	<script src="scripts/footer/footer-header.js"></script>
-	<script src="scripts/footer/footer.js" type="module"></script>
+	<script src="/scripts/header/header-header.js"></script>
+	<script src="/scripts/header/header.js" type="module"></script>
+	<script src="/scripts/footer/footer-header.js"></script>
+	<script src="/scripts/footer/footer.js" type="module"></script>
 
 	<!-- Others -->
 	<link rel="icon" href="/src/images/svg/vtcomp_mark.svg">
@@ -45,14 +46,17 @@
 	<div class="main-section back">
 		<div id="main" class="main-section page">
 			<div class="main-section block">
-				<div style="width: fit-content; height: fit-content; margin: auto; font-size: 96px; font-weight: 800;">
-					404 Not Found
-				</div>
-				<img src="/src/images/png/404dog.png" style="display: block; margin: auto; opacity: 60%;">
+				<img src="/src/images/png/404dog.png" class="error icon">
 			</div>
 
-			<div class="main-section block" style="width: fit-content; height: fit-content; margin: auto; font-size: 48px;">
-				このページは存在しません。
+			<div class="main-section block">
+				<div class="error header">
+					404 Not Found
+				</div>
+
+				<div class="error text">
+					このページは存在しません。
+				</div>
 			</div>
 		</div>
 	</div>
