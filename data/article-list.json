@@ -33,5 +33,34 @@
 				"thumbnail": "/src/images/png/thumbnails/clock-1-mini.png"
 			}
 		]
+	},
+	{
+		"title": "数値カウンター",
+		"items": [
+			{
+				"url": "https://items.vt-comp.com/counter/counter-controller-0.html",
+				"title": "カウンターコントローラー",
+				"descriptions": "数値カウンターの本体です。ここで値を操作します。カスタムブラウザドックの上でご利用ください。",
+				"thumbnail": "/src/images/png/thumbnails/counter-controller-0.png"
+			},
+			{
+				"url": "https://items.vt-comp.com/counter/counter-0.html",
+				"title": "タイプ0",
+				"descriptions": "ネオン風の数値ディスプレイです。",
+				"thumbnail": "/src/images/png/thumbnails/counter-0.png"
+			},
+			{
+				"url": "https://items.vt-comp.com/counter/counter-1.html",
+				"title": "タイプ1",
+				"descriptions": "かわいらしいウィンドウ風の数値ディスプレイです。",
+				"thumbnail": "/src/images/png/thumbnails/counter-1.png"
+			},
+			{
+				"url": "https://items.vt-comp.com/counter/counter-2.html",
+				"title": "タイプ2",
+				"descriptions": "プログレスバータイプの数値ディスプレイです。横幅は任意ですが、400px以上はあった方がいいと思われます。目標を更に上回ると何かあるかも。",
+				"thumbnail": "/src/images/png/thumbnails/counter-2.png"
+			}
+		]
 	}
 ]
