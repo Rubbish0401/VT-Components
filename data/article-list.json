@@ -39,7 +39,7 @@
 		"items": [
 			{
 				"url": "https://items.vt-comp.com/counter/counter-controller-0.html",
-				"title": "カウンターコントローラー",
+				"title": "コントローラー",
 				"descriptions": "数値カウンターの本体です。ここで値を操作します。カスタムブラウザドックの上でご利用ください。",
 				"thumbnail": "/src/images/png/thumbnails/counter-controller-0.png"
 			},
