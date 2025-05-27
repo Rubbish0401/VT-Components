@@ -60,6 +60,18 @@
 				"title": "タイプ2",
 				"descriptions": "プログレスバータイプの数値ディスプレイです。横幅は任意ですが、400px以上はあった方がいいと思われます。目標を更に上回ると何かあるかも。",
 				"thumbnail": "/src/images/png/thumbnails/counter-2.png"
+			},
+			{
+				"url": "https://items.vt-comp.com/counter/counter-3.html",
+				"title": "タイプ3",
+				"descriptions": "プログレスバータイプです。見た目のかわいさをなくし、綺麗めなデザインにしました。横幅は可変ですがが、300pxはないと見た目が悪くなりそうです。",
+				"thumbnail": "/src/images/png/thumbnails/counter-3.png"
+			},
+			{
+				"url": "https://items.vt-comp.com/counter/counter-4.html",
+				"title": "タイプ4",
+				"descriptions": "プログレスバータイプです。バーを離散的に表現しました。通常は画像のように様々な色で表しますが、URLにhueパラメータを付けることで単色での描画も可能です。",
+				"thumbnail": "/src/images/png/thumbnails/counter-4.png"
 			}
 		]
 	}
