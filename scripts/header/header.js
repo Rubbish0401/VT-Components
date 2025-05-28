@@ -68,7 +68,7 @@ function createHeader(){
 	// Set Classes and ID
 	back.classList.add("header-bar", "back");
 
-	logo_holder.classList.add("header-bar", "logo-holder")
+	logo_holder.classList.add("header-bar", "logo-holder");
 	mark.classList.add("header-bar", "mark");
 	logo.classList.add("header-bar", "logo");
 
