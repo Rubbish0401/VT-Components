@@ -31,6 +31,12 @@
 				"title": "タイプ1 ミニ",
 				"descriptions": "タイプ1の時計から秒数の表示を除き、小型化しました。さらにどこにでも置きやすくなっています。",
 				"thumbnail": "/src/images/png/thumbnails/clock-1-mini.png"
+			},
+			{
+				"url": "https://items.vt-comp.com/clock/clock-2.html",
+				"title": "タイプ2",
+				"descriptions": "シンプルなアナログ時計です。サンプル画像は文字盤の背景をカスタマイズしていますが、通常は無地のライトグレー単色です。",
+				"thumbnail": "/src/images/png/thumbnails/clock-2.png"
 			}
 		]
 	},
