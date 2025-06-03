@@ -35,7 +35,7 @@
 			{
 				"url": "https://items.vt-comp.com/clock/clock-2.html",
 				"title": "タイプ2",
-				"descriptions": "シンプルなアナログ時計です。サンプル画像は文字盤の背景をカスタマイズしていますが、通常は無地のライトグレー単色です。",
+				"descriptions": "シンプルなアナログ時計です。サンプル画像は文字盤の背景をカスタマイズしていますが、通常は無地のライトグレー単色です。針を離散的に動かすことも可能です。",
 				"thumbnail": "/src/images/png/thumbnails/clock-2.png"
 			}
 		]
